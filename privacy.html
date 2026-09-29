@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="privacy.title">Политика конфиденциальности — Brightfield Bioresearch</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .legal { max-width: 760px; padding: 72px 0 96px; }
+    .legal .section__title { margin: 16px 0 28px; }
+    .legal p { color: var(--ink-2); margin-bottom: 18px; font-size: 16px; }
+    .legal .btn { margin-top: 24px; }
+  </style>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="index.html" class="logo" aria-label="Brightfield Bioresearch">
+      <span class="logo__mark" aria-hidden="true"></span>
+      <span class="logo__text">Brightfield <span>Bioresearch</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html#areas" data-i18n="nav.areas">Направления</a>
+      <a href="index.html#services" data-i18n="nav.services">Услуги</a>
+      <a href="index.html#why" data-i18n="nav.why">Принципы</a>
+      <a href="index.html#process" data-i18n="nav.process">Процесс</a>
+      <a href="index.html#team" data-i18n="nav.team">Команда</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Контакты</a>
+    </nav>
+    <div class="header__tools">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="kk">KZ</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <a href="index.html#contact" class="btn btn--small header__cta" data-i18n="nav.cta">Обсудить проект</a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section section--last">
+    <div class="container legal">
+      <p class="label"><span data-i18n="privacy.updated">Обновлено</span>: 2026</p>
+      <h1 class="section__title" data-i18n="privacy.title">Политика конфиденциальности</h1>
+      <div id="privacyBody"></div>
+      <a href="index.html" class="btn" data-i18n="privacy.back">На главную</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="index.html" class="logo"><span class="logo__mark" aria-hidden="true"></span><span class="logo__text">Brightfield <span>Bioresearch</span></span></a>
+      <p class="footer__tagline" data-i18n="footer.tagline"></p>
+    </div>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="index.html#areas" data-i18n="nav.areas">Направления</a>
+      <a href="index.html#services" data-i18n="nav.services">Услуги</a>
+      <a href="index.html#why" data-i18n="nav.why">Принципы</a>
+      <a href="index.html#process" data-i18n="nav.process">Процесс</a>
+      <a href="index.html#team" data-i18n="nav.team">Команда</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Контакты</a>
+    </nav>
+    <div class="footer__bottom">
+      <p class="label"><span id="year"></span> Brightfield Bioresearch · <span data-i18n="footer.rights">Все права защищены.</span></p>
+      <a class="label" href="privacy.html" data-i18n="footer.privacy">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

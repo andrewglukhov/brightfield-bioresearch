@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">Brightfield Bioresearch — контрактные исследования в онкологии</title>
+  <meta name="description" data-i18n-content="meta.desc" content="Brightfield Bioresearch — исследовательская команда из Казахстана. Доклинические и трансляционные исследования для терапии рака лёгкого, желудка и печени.">
+  <meta property="og:title" data-i18n-content="meta.title" content="Brightfield Bioresearch">
+  <meta property="og:description" data-i18n-content="meta.desc" content="">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main" data-i18n="a11y.skip">К содержанию</a>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="Brightfield Bioresearch">
+      <span class="logo__mark" aria-hidden="true"></span>
+      <span class="logo__text">Brightfield <span>Bioresearch</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#areas" data-i18n="nav.areas">Направления</a>
+      <a href="#services" data-i18n="nav.services">Услуги</a>
+      <a href="#why" data-i18n="nav.why">Почему мы</a>
+      <a href="#process" data-i18n="nav.process">Процесс</a>
+      <a href="#team" data-i18n="nav.team">Команда</a>
+      <a href="#contact" data-i18n="nav.contact">Контакты</a>
+    </nav>
+
+    <div class="header__tools">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="kk">KZ</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <a href="#contact" class="btn btn--small header__cta" data-i18n="nav.cta">Обсудить проект</a>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <p class="label" data-i18n="hero.kicker">Контрактные исследования в онкологии · Казахстан</p>
+      <h1 class="hero__title" data-i18n="hero.title">Доклинические исследования в онкологии на аутсорсе</h1>
+      <p class="hero__lead" data-i18n="hero.lead"></p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary" data-i18n="hero.cta1">Обсудить проект</a>
+        <a href="#services" class="link-arrow" data-i18n="hero.cta2">Наши услуги</a>
+      </div>
+    </div>
+
+    <aside class="sheet" aria-label="Summary">
+      <div class="sheet__head">
+        <span class="label" data-i18n="hero.sheetTitle">Паспорт компании</span>
+        <span class="label">BF-2026</span>
+      </div>
+      <dl class="sheet__rows" id="heroSheet"></dl>
+    </aside>
+  </div>
+
+  <div class="container">
+    <ul class="stats">
+      <li class="stat">
+        <div class="stat__value"><span class="num" data-count="3">0</span></div>
+        <p class="label" data-i18n="stats.s1">онкологических направления в фокусе</p>
+      </li>
+      <li class="stat">
+        <div class="stat__value"><span class="num" data-count="12">0</span>+</div>
+        <p class="label" data-i18n="stats.s2">валидированных клеточных моделей</p>
+      </li>
+      <li class="stat">
+        <div class="stat__value"><span class="num" data-count="24">0</span><span data-i18n="stats.s3suffix"> ч</span></div>
+        <p class="label" data-i18n="stats.s3">ответ на запрос в рабочие дни</p>
+      </li>
+      <li class="stat">
+        <div class="stat__value"><span class="num" data-count="100">0</span>%</div>
+        <p class="label" data-i18n="stats.s4">проектов под NDA и с передачей сырых данных</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= AREAS ================= -->
+<section class="section" id="areas">
+  <div class="container">
+    <div class="section__head">
+      <span class="label">01</span>
+      <h2 class="section__title" data-i18n="areas.title">Направления исследований</h2>
+      <p class="section__lead" data-i18n="areas.lead"></p>
+    </div>
+    <div class="areas" id="areasGrid"></div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section__head">
+      <span class="label">02</span>
+      <h2 class="section__title" data-i18n="services.title">Что мы делаем</h2>
+      <p class="section__lead" data-i18n="services.lead"></p>
+    </div>
+    <ol class="services" id="servicesList"></ol>
+  </div>
+</section>
+
+<!-- ================= WHY ================= -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="section__head">
+      <span class="label">03</span>
+      <h2 class="section__title" data-i18n="why.title">Принципы работы</h2>
+    </div>
+    <div class="why">
+      <div class="why__col">
+        <h3 class="why__title" data-i18n="why.quality.tab">Качество</h3>
+        <ul class="list" data-i18n-list="why.quality.list"></ul>
+      </div>
+      <div class="why__col">
+        <h3 class="why__title" data-i18n="why.time.tab">Сроки</h3>
+        <ul class="list" data-i18n-list="why.time.list"></ul>
+      </div>
+      <div class="why__col">
+        <h3 class="why__title" data-i18n="why.transparency.tab">Прозрачность</h3>
+        <ul class="list" data-i18n-list="why.transparency.list"></ul>
+      </div>
+      <div class="why__col">
+        <h3 class="why__title" data-i18n="why.expertise.tab">Экспертиза</h3>
+        <ul class="list" data-i18n-list="why.expertise.list"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section__head">
+      <span class="label">04</span>
+      <h2 class="section__title" data-i18n="process.title">Как мы работаем</h2>
+      <p class="section__lead" data-i18n="process.lead"></p>
+    </div>
+    <ol class="steps" id="stepsList"></ol>
+  </div>
+</section>
+
+<!-- ================= MISSION ================= -->
+<section class="mission" id="mission">
+  <div class="container mission__inner">
+    <span class="label label--light" data-i18n="mission.label">Миссия</span>
+    <h2 class="mission__title" data-i18n="mission.title">Поднимаем биотех в Казахстане</h2>
+    <p class="mission__text" data-i18n="mission.text"></p>
+  </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section class="section" id="team">
+  <div class="container">
+    <div class="section__head">
+      <span class="label">05</span>
+      <h2 class="section__title" data-i18n="team.title">Команда</h2>
+      <p class="section__lead" data-i18n="team.lead"></p>
+    </div>
+    <div class="team" id="teamGrid"></div>
+    <div class="principles">
+      <h3 class="principles__title" data-i18n="team.principlesTitle">Принципы</h3>
+      <ul class="principles__list" data-i18n-list="team.principles"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section section--last" id="contact">
+  <div class="container">
+    <div class="contact">
+      <div class="contact__info">
+        <span class="label">06</span>
+        <h2 class="section__title" data-i18n="contact.title">Связаться с нами</h2>
+        <p class="section__lead" data-i18n="contact.lead"></p>
+        <dl class="contact__details">
+          <div><dt class="label" data-i18n="contact.emailLabel">Email</dt><dd><a id="contactEmail" href="mailto:">—</a></dd></div>
+          <div><dt class="label" data-i18n="contact.locationLabel">Локация</dt><dd data-i18n="contact.location">Казахстан</dd></div>
+          <div><dt class="label" data-i18n="contact.hoursLabel">Часы работы</dt><dd data-i18n="contact.hours">Пн–Пт, 9:00–18:00 (GMT+5)</dd></div>
+        </dl>
+      </div>
+
+      <form class="form" id="contactForm" novalidate>
+        <div class="form__row">
+          <label class="field">
+            <span class="field__label" data-i18n="form.topic">Тема запроса</span>
+            <select name="topic" id="topicSelect" required></select>
+          </label>
+        </div>
+        <div class="form__row form__row--2">
+          <label class="field">
+            <span class="field__label" data-i18n="form.name">ФИО</span>
+            <input type="text" name="name" required autocomplete="name">
+          </label>
+          <label class="field">
+            <span class="field__label" data-i18n="form.company">Компания</span>
+            <input type="text" name="company" autocomplete="organization">
+          </label>
+        </div>
+        <div class="form__row form__row--2">
+          <label class="field">
+            <span class="field__label" data-i18n="form.email">Рабочий email</span>
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+          <label class="field">
+            <span class="field__label" data-i18n="form.phone">Телефон</span>
+            <input type="tel" name="phone" autocomplete="tel">
+          </label>
+        </div>
+        <div class="form__row">
+          <label class="field">
+            <span class="field__label" data-i18n="form.message">Описание задачи</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="consent" required>
+          <span data-i18n="form.consent">Я даю согласие на обработку персональных данных.</span>
+        </label>
+        <div class="form__footer">
+          <button type="submit" class="btn btn--primary" data-i18n="form.submit">Отправить</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#top" class="logo"><span class="logo__mark" aria-hidden="true"></span><span class="logo__text">Brightfield <span>Bioresearch</span></span></a>
+      <p class="footer__tagline" data-i18n="footer.tagline"></p>
+    </div>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#areas" data-i18n="nav.areas">Направления</a>
+      <a href="#services" data-i18n="nav.services">Услуги</a>
+      <a href="#why" data-i18n="nav.why">Почему мы</a>
+      <a href="#process" data-i18n="nav.process">Процесс</a>
+      <a href="#team" data-i18n="nav.team">Команда</a>
+      <a href="#contact" data-i18n="nav.contact">Контакты</a>
+    </nav>
+    <div class="footer__bottom">
+      <p class="label"><span id="year"></span> Brightfield Bioresearch · <span data-i18n="footer.rights">Все права защищены.</span></p>
+      <a class="label" href="privacy.html" data-i18n="footer.privacy">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
