@@ -7,7 +7,7 @@
   /* ---------- SETTINGS (edit here) ---------- */
   var CONFIG = {
     // Контактный email компании (показывается на сайте и используется как fallback для формы)
-    contactEmail: "info@brightfieldbio.kz",
+    contactEmail: "info@brightfield-bio.kz",
     // Endpoint для отправки формы (Formspree, Getform, свой backend). Пусто — откроется mailto.
     // Пример Formspree: "https://formspree.io/f/xxxxxxxx"
     formEndpoint: "",

@@ -15,7 +15,7 @@ js/main.js      логика: языки, рендер контента, счё�
 
 ## Что заполнить перед публикацией
 
-1. **Email** — `js/main.js`, поле `CONFIG.contactEmail` (сейчас `info@brightfieldbio.kz`).
+1. **Email** — `js/main.js`, поле `CONFIG.contactEmail` (сейчас `info@brightfield-bio.kz`).
 2. **Форма заявки** — `CONFIG.formEndpoint` в `js/main.js`.
    Пока пусто, форма открывает почтовый клиент с готовым письмом (mailto).
    Чтобы письма приходили без почтового клиента, зарегистрируйте бесплатный
