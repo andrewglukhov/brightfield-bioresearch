@@ -20,16 +20,7 @@ window.I18N = {
       kicker: "Контрактные исследования в онкологии · Казахстан",
       title: "Доклинические исследования в онкологии на аутсорсе",
       lead: "Brightfield Bioresearch берёт на себя доклинический и трансляционный этап разработки терапии рака лёгкого, желудка и печени: от дизайна эксперимента до отчёта, готового к публикации и регуляторной подаче.",
-      cta1: "Обсудить проект", cta2: "Наши услуги",
-      sheetTitle: "Паспорт компании",
-      sheet: [
-        ["Профиль", "Контрактная исследовательская организация, доклинический этап"],
-        ["Показания", "Рак лёгкого · рак желудка · рак печени"],
-        ["Форматы", "In vitro · In vivo · Биомаркеры · Биоинформатика"],
-        ["Отчётность", "RU / EN, готово к публикации и регуляторной подаче"],
-        ["Конфиденциальность", "NDA до обсуждения деталей, данные принадлежат заказчику"],
-        ["Локация", "Казахстан, GMT+5"]
-      ]
+      cta1: "Обсудить проект", cta2: "Наши услуги"
     },
     stats: {
       s1: "онкологических направления в фокусе",
@@ -185,16 +176,7 @@ window.I18N = {
       kicker: "Онкологиядағы келісімшарттық зерттеулер · Қазақстан",
       title: "Онкологиядағы клиникаға дейінгі зерттеулер аутсорсингте",
       lead: "Brightfield Bioresearch өкпе, асқазан және бауыр обырын емдеу әдістерін әзірлеудің клиникаға дейінгі және трансляциялық кезеңін өз мойнына алады: эксперимент дизайнынан бастап жариялауға және реттеуші органдарға тапсыруға дайын есепке дейін.",
-      cta1: "Жобаны талқылау", cta2: "Біздің қызметтер",
-      sheetTitle: "Компания паспорты",
-      sheet: [
-        ["Профиль", "Келісімшарттық зерттеу ұйымы, клиникаға дейінгі кезең"],
-        ["Көрсетілімдер", "Өкпе обыры · асқазан обыры · бауыр обыры"],
-        ["Форматтар", "In vitro · In vivo · Биомаркерлер · Биоинформатика"],
-        ["Есептілік", "RU / EN, жариялауға және реттеуші органдарға тапсыруға дайын"],
-        ["Құпиялылық", "Мәліметтерді талқылауға дейін NDA, деректер тапсырыс берушіге тиесілі"],
-        ["Орналасқан жері", "Қазақстан, GMT+5"]
-      ]
+      cta1: "Жобаны талқылау", cta2: "Біздің қызметтер"
     },
     stats: {
       s1: "назардағы онкологиялық бағыт",
@@ -350,16 +332,7 @@ window.I18N = {
       kicker: "Contract research in oncology · Kazakhstan",
       title: "Outsourced preclinical research in oncology",
       lead: "Brightfield Bioresearch takes on the preclinical and translational stage of developing therapies for lung, gastric and liver cancer: from experimental design to a report ready for publication and regulatory submission.",
-      cta1: "Discuss a project", cta2: "Our services",
-      sheetTitle: "Company profile",
-      sheet: [
-        ["Profile", "Contract research organization, preclinical stage"],
-        ["Indications", "Lung cancer · gastric cancer · liver cancer"],
-        ["Formats", "In vitro · In vivo · Biomarkers · Bioinformatics"],
-        ["Reporting", "RU / EN, ready for publication and regulatory submission"],
-        ["Confidentiality", "NDA before any details are discussed; the data belongs to the client"],
-        ["Location", "Kazakhstan, GMT+5"]
-      ]
+      cta1: "Discuss a project", cta2: "Our services"
     },
     stats: {
       s1: "oncology indications in focus",

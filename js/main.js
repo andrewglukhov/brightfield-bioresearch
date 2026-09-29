@@ -11,7 +11,8 @@
     // Endpoint для отправки формы (Formspree, Getform, свой backend). Пусто — откроется mailto.
     // Пример Formspree: "https://formspree.io/f/xxxxxxxx"
     formEndpoint: "",
-    defaultLang: "ru",
+    // Язык по умолчанию при первом заходе (ru | kk | en)
+    defaultLang: "kk",
     supported: ["ru", "kk", "en"]
   };
 
@@ -39,9 +40,6 @@
     if (fromUrl) return fromUrl;
     var saved = read("bf_lang");
     if (saved && CONFIG.supported.indexOf(saved) > -1) return saved;
-    var nav = (navigator.language || "").toLowerCase();
-    if (nav.indexOf("kk") === 0 || nav.indexOf("kz") === 0) return "kk";
-    if (nav.indexOf("en") === 0) return "en";
     return CONFIG.defaultLang;
   }
 
@@ -74,7 +72,6 @@
       b.classList.toggle("is-active", b.getAttribute("data-lang") === lang);
     });
 
-    renderSheet(dict);
     renderAreas(dict);
     renderServices(dict);
     renderSteps(dict);
@@ -84,14 +81,6 @@
   }
 
   /* ---------- RENDERERS ---------- */
-  function renderSheet(dict) {
-    var box = $("#heroSheet");
-    if (!box || !dict.hero || !dict.hero.sheet) return;
-    box.innerHTML = dict.hero.sheet.map(function (r) {
-      return '<div class="sheet__row"><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>';
-    }).join("");
-  }
-
   function renderAreas(dict) {
     var grid = $("#areasGrid");
     if (!grid || !dict.areas) return;
@@ -300,7 +289,7 @@
     initCounters();
     initNav();
     initContact();
-    $$(".section__head, .why__col, .principles, .contact__info, .form, .sheet").forEach(function (el) { el.classList.add("reveal"); });
+    $$(".section__head, .why__col, .principles, .contact__info, .form").forEach(function (el) { el.classList.add("reveal"); });
     observeReveal(document);
   });
 })();
