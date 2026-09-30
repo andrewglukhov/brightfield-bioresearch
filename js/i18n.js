@@ -62,7 +62,8 @@ window.I18N = {
         { title: "Биомаркеры и молекулярный анализ", text: "Иммуногистохимия, ПЦР в реальном времени, вестерн-блот, проточная цитометрия и NGS для подтверждения механизма действия.", tags: ["IHC", "qPCR", "NGS"] },
         { title: "Биоинформатика и статистика", text: "Анализ транскриптомных и геномных данных, статистическое планирование, визуализация результатов и воспроизводимые пайплайны.", tags: ["RNA-seq", "R / Python", "Stat design"] },
         { title: "Дизайн исследований", text: "Разработка протоколов, расчёт объёма выборки, литературный обзор и научное сопровождение проекта на всех этапах.", tags: ["Protocol", "Literature review", "SOP"] },
-        { title: "Управление проектом и отчётность", text: "Единый менеджер, еженедельные статусы, отчёт на русском и английском языке — готовый к публикации, гранту или регуляторной подаче.", tags: ["Weekly status", "RU / EN", "Publication-ready"] }
+        { title: "Управление проектом и отчётность", text: "Единый менеджер, еженедельные статусы, отчёт на русском и английском языке — готовый к публикации, гранту или регуляторной подаче.", tags: ["Weekly status", "RU / EN", "Publication-ready"] },
+        { title: "Фармакопейный контроль качества онкологических субстанций и препаратов", text: "Подлинность, количественное определение, родственные примеси и тест растворения по монографиям USP, Ph. Eur., ГФ РК и Фармакопеи ЕАЭС. Все испытания выполняются с использованием фармакопейных стандартных образцов. Верификация методик и сравнительная кинетика растворения для дженериков.", tags: ["USP / Ph. Eur.", "HPLC", "Dissolution"] }
       ]
     },
     why: {
@@ -131,7 +132,7 @@ window.I18N = {
     form: {
       topic: "Тема запроса",
       topicPlaceholder: "Выберите тему",
-      topics: ["Доклиническое исследование", "In vitro скрининг", "In vivo модели", "Биомаркеры и анализ данных", "Партнёрство", "Другое"],
+      topics: ["Доклиническое исследование", "In vitro скрининг", "In vivo модели", "Биомаркеры и анализ данных", "Фармакопейный анализ", "Партнёрство", "Другое"],
       name: "ФИО", email: "Рабочий email", phone: "Телефон", company: "Компания",
       position: "Должность", message: "Описание задачи",
       consent: 'Я даю согласие на обработку персональных данных и соглашаюсь с условиями <a href="privacy.html">политики конфиденциальности</a>.',
@@ -218,7 +219,8 @@ window.I18N = {
         { title: "Биомаркерлер және молекулалық талдау", text: "Әсер ету механизмін растау үшін иммуногистохимия, нақты уақыттағы ПТР, вестерн-блот, ағынды цитометрия және NGS.", tags: ["IHC", "qPCR", "NGS"] },
         { title: "Биоинформатика және статистика", text: "Транскриптомдық және геномдық деректерді талдау, статистикалық жоспарлау, нәтижелерді визуализациялау және қайталанатын пайплайндар.", tags: ["RNA-seq", "R / Python", "Stat design"] },
         { title: "Зерттеу дизайны", text: "Хаттамаларды әзірлеу, іріктеме көлемін есептеу, әдеби шолу және жобаны барлық кезеңдерде ғылыми сүйемелдеу.", tags: ["Protocol", "Literature review", "SOP"] },
-        { title: "Жобаны басқару және есептілік", text: "Бірыңғай менеджер, апта сайынғы статустар, орыс және ағылшын тілдеріндегі есеп — жариялауға, грантқа немесе реттеуші органдарға тапсыруға дайын.", tags: ["Weekly status", "RU / EN", "Publication-ready"] }
+        { title: "Жобаны басқару және есептілік", text: "Бірыңғай менеджер, апта сайынғы статустар, орыс және ағылшын тілдеріндегі есеп — жариялауға, грантқа немесе реттеуші органдарға тапсыруға дайын.", tags: ["Weekly status", "RU / EN", "Publication-ready"] },
+        { title: "Онкологиялық субстанциялар мен препараттардың фармакопеялық сапа бақылауы", text: "USP, Ph. Eur., ҚР МФ және ЕАЭО Фармакопеясының монографиялары бойынша түпнұсқалық, сандық анықтау, туыстас қоспалар және еру тесті. Барлық сынақтар фармакопеялық стандартты үлгілерді қолдана отырып орындалады. Әдістемелерді верификациялау және дженериктер үшін салыстырмалы еру кинетикасы.", tags: ["USP / Ph. Eur.", "HPLC", "Dissolution"] }
       ]
     },
     why: {
@@ -287,7 +289,7 @@ window.I18N = {
     form: {
       topic: "Сұрау тақырыбы",
       topicPlaceholder: "Тақырыпты таңдаңыз",
-      topics: ["Клиникаға дейінгі зерттеу", "In vitro скрининг", "In vivo модельдер", "Биомаркерлер және деректерді талдау", "Серіктестік", "Басқа"],
+      topics: ["Клиникаға дейінгі зерттеу", "In vitro скрининг", "In vivo модельдер", "Биомаркерлер және деректерді талдау", "Фармакопеялық талдау", "Серіктестік", "Басқа"],
       name: "Аты-жөні", email: "Жұмыс email", phone: "Телефон", company: "Компания",
       position: "Лауазымы", message: "Міндеттің сипаттамасы",
       consent: 'Дербес деректерімді өңдеуге келісім беремін және <a href="privacy.html">құпиялылық саясатының</a> шарттарымен келісемін.',
@@ -374,7 +376,8 @@ window.I18N = {
         { title: "Biomarkers and molecular analysis", text: "Immunohistochemistry, real-time PCR, western blot, flow cytometry and NGS to confirm the mechanism of action.", tags: ["IHC", "qPCR", "NGS"] },
         { title: "Bioinformatics and statistics", text: "Transcriptomic and genomic data analysis, statistical planning, result visualization and reproducible pipelines.", tags: ["RNA-seq", "R / Python", "Stat design"] },
         { title: "Study design", text: "Protocol development, sample size calculation, literature review and scientific support at every stage of the project.", tags: ["Protocol", "Literature review", "SOP"] },
-        { title: "Project management and reporting", text: "A single point of contact, weekly status updates, and a report in Russian and English — ready for publication, grant or regulatory submission.", tags: ["Weekly status", "RU / EN", "Publication-ready"] }
+        { title: "Project management and reporting", text: "A single point of contact, weekly status updates, and a report in Russian and English — ready for publication, grant or regulatory submission.", tags: ["Weekly status", "RU / EN", "Publication-ready"] },
+        { title: "Pharmacopoeial quality control of oncology APIs and drug products", text: "Identification, assay, related substances and dissolution testing according to USP, Ph. Eur., the State Pharmacopoeia of Kazakhstan and the EAEU Pharmacopoeia monographs. All tests are performed using pharmacopoeial reference standards. Method verification and comparative dissolution profiling for generics.", tags: ["USP / Ph. Eur.", "HPLC", "Dissolution"] }
       ]
     },
     why: {
@@ -443,7 +446,7 @@ window.I18N = {
     form: {
       topic: "Topic",
       topicPlaceholder: "Select a topic",
-      topics: ["Preclinical study", "In vitro screening", "In vivo models", "Biomarkers and data analysis", "Partnership", "Other"],
+      topics: ["Preclinical study", "In vitro screening", "In vivo models", "Biomarkers and data analysis", "Pharmacopoeial analysis", "Partnership", "Other"],
       name: "Full name", email: "Work email", phone: "Phone", company: "Company",
       position: "Position", message: "Describe your task",
       consent: 'I consent to the processing of my personal data and agree to the <a href="privacy.html">privacy policy</a>.',
