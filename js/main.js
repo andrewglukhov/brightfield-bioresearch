@@ -78,6 +78,15 @@
     renderTeam(dict);
     renderTopics(dict);
     renderPrivacy(dict);
+    renderLegal(dict);
+  }
+
+  function renderLegal(dict) {
+    var box = $("#contactLegal");
+    if (!box || !dict.contact || !dict.contact.legal) return;
+    box.innerHTML = dict.contact.legal.map(function (r) {
+      return '<div><dt class="label">' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>';
+    }).join("");
   }
 
   /* ---------- RENDERERS ---------- */

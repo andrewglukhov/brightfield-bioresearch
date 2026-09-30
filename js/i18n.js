@@ -127,7 +127,13 @@ window.I18N = {
       title: "Связаться с нами",
       lead: "Опишите задачу — мы вернёмся с предложением по дизайну исследования, срокам и стоимости в течение одного рабочего дня.",
       emailLabel: "Email", locationLabel: "Локация", location: "Казахстан",
-      hoursLabel: "Часы работы", hours: "Пн–Пт, 9:00–18:00 (GMT+5)"
+      hoursLabel: "Часы работы", hours: "Пн–Пт, 9:00–18:00 (GMT+5)",
+      legal: [
+        ["Юридическое лицо", "ТОО «Брайтфилд Биоресерч»"],
+        ["БИН", "260940037559"],
+        ["Юридический адрес", "Казахстан, Карагандинская область, г. Караганда, район Әлихан Бөкейхан, ул. Донская, д. 49, кв. 2, M03A7G6"],
+        ["Руководитель", "Глухов Андрей Сергеевич"]
+      ]
     },
     form: {
       topic: "Тема запроса",
@@ -284,7 +290,13 @@ window.I18N = {
       title: "Бізбен байланысыңыз",
       lead: "Міндетті сипаттаңыз — бір жұмыс күні ішінде зерттеу дизайны, мерзімдері мен құны бойынша ұсыныспен ораламыз.",
       emailLabel: "Email", locationLabel: "Орналасқан жері", location: "Қазақстан",
-      hoursLabel: "Жұмыс уақыты", hours: "Дс–Жм, 9:00–18:00 (GMT+5)"
+      hoursLabel: "Жұмыс уақыты", hours: "Дс–Жм, 9:00–18:00 (GMT+5)",
+      legal: [
+        ["Заңды тұлға", "«Брайтфилд Биоресерч» ЖШС"],
+        ["БСН", "260940037559"],
+        ["Заңды мекенжайы", "Қазақстан, Қарағанды облысы, Қарағанды қ., Әлихан Бөкейхан ауданы, Донская к-сі, 49-үй, 2-пәтер, M03A7G6"],
+        ["Басшы", "Глухов Андрей Сергеевич"]
+      ]
     },
     form: {
       topic: "Сұрау тақырыбы",
@@ -441,7 +453,13 @@ window.I18N = {
       title: "Get in touch",
       lead: "Describe your task and we will come back with a proposal on study design, timeline and cost within one business day.",
       emailLabel: "Email", locationLabel: "Location", location: "Kazakhstan",
-      hoursLabel: "Working hours", hours: "Mon–Fri, 9:00–18:00 (GMT+5)"
+      hoursLabel: "Working hours", hours: "Mon–Fri, 9:00–18:00 (GMT+5)",
+      legal: [
+        ["Legal entity", "Brightfield Bioresearch LLP"],
+        ["BIN", "260940037559"],
+        ["Registered address", "Apt. 2, 49 Donskaya St., Alikhan Bokeikhan District, Karaganda, Karaganda Region, Kazakhstan, M03A7G6"],
+        ["Director", "Andrey Glukhov"]
+      ]
     },
     form: {
       topic: "Topic",
