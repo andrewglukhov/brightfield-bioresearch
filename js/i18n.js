@@ -14,7 +14,7 @@ window.I18N = {
     a11y: { skip: "К содержанию" },
     nav: {
       areas: "Направления", services: "Услуги", why: "Принципы", process: "Процесс",
-      team: "Команда", contact: "Контакты", cta: "Обсудить проект"
+      team: "Команда", contact: "Контакты", requisites: "Реквизиты", cta: "Обсудить проект"
     },
     hero: {
       kicker: "Контрактные исследования в онкологии · Казахстан",
@@ -178,7 +178,7 @@ window.I18N = {
     a11y: { skip: "Мазмұнға өту" },
     nav: {
       areas: "Бағыттар", services: "Қызметтер", why: "Қағидаттар", process: "Үдеріс",
-      team: "Команда", contact: "Байланыс", cta: "Жобаны талқылау"
+      team: "Команда", contact: "Байланыс", requisites: "Деректемелер", cta: "Жобаны талқылау"
     },
     hero: {
       kicker: "Онкологиядағы келісімшарттық зерттеулер · Қазақстан",
@@ -342,7 +342,7 @@ window.I18N = {
     a11y: { skip: "Skip to content" },
     nav: {
       areas: "Focus areas", services: "Services", why: "Principles", process: "Process",
-      team: "Team", contact: "Contact", cta: "Discuss a project"
+      team: "Team", contact: "Contact", requisites: "Company details", cta: "Discuss a project"
     },
     hero: {
       kicker: "Contract research in oncology · Kazakhstan",
