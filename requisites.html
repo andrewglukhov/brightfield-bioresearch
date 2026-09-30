@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="privacy.title">Құпиялылық саясаты — Brightfield Bioresearch</title>
-  <meta name="robots" content="noindex">
+  <title data-i18n="footer.requisites">Компания деректемелері — Brightfield Bioresearch</title>
   <meta name="theme-color" content="#fafaf8">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,9 +12,11 @@
   <link rel="stylesheet" href="css/style.css">
   <style>
     .legal { max-width: 808px; }
-    .legal .section__title { margin: 16px 0 28px; }
-    .legal p { color: var(--ink-2); margin-bottom: 18px; font-size: 16px; }
-    .legal .btn { margin-top: 24px; }
+    .legal .section__title { margin: 16px 0 8px; }
+    .legal .contact__details { margin-top: 32px; }
+    .legal .contact__details div { padding-bottom: 16px; border-bottom: 1px solid var(--line-soft); }
+    .legal .contact__details div:last-child { border-bottom: 0; }
+    .legal .btn { margin-top: 32px; }
   </style>
 </head>
 <body>
@@ -51,9 +52,9 @@
 <main id="main">
   <section class="section section--last">
     <div class="container legal">
-      <p class="label"><span data-i18n="privacy.updated">Обновлено</span>: 2026</p>
-      <h1 class="section__title" data-i18n="privacy.title">Политика конфиденциальности</h1>
-      <div id="privacyBody"></div>
+      <p class="label">Brightfield Bioresearch</p>
+      <h1 class="section__title" data-i18n="footer.requisites">Реквизиты компании</h1>
+      <dl class="contact__details" id="contactLegal"></dl>
       <a href="index.html" class="btn" data-i18n="privacy.back">На главную</a>
     </div>
   </section>

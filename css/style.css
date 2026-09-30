@@ -170,7 +170,8 @@ input, select, textarea { font: inherit; color: inherit; }
 .contact__info .section__lead { margin-top: 20px; }
 .contact__details { margin-top: 40px; display: grid; gap: 16px; border-top: 1px solid var(--line); padding-top: 24px; }
 .contact__details div { display: grid; grid-template-columns: 170px 1fr; gap: 12px; align-items: baseline; }
-.contact__details--legal { margin-top: 24px; }
+.contact__req { margin-top: 28px; }
+.footer__links { display: flex; flex-wrap: wrap; gap: 8px 28px; }
 @media (max-width: 600px) { .contact__details div { grid-template-columns: 1fr; gap: 4px; } }
 .contact__details dd { font-size: 15px; }
 .contact__details a { border-bottom: 1px solid var(--line); }

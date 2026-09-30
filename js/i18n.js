@@ -152,7 +152,8 @@ window.I18N = {
     footer: {
       tagline: "Контрактные доклинические и трансляционные исследования в онкологии. Казахстан.",
       rights: "Все права защищены.",
-      privacy: "Политика конфиденциальности"
+      privacy: "Политика конфиденциальности",
+      requisites: "Реквизиты компании"
     },
     privacy: {
       title: "Политика конфиденциальности",
@@ -315,7 +316,8 @@ window.I18N = {
     footer: {
       tagline: "Онкологиядағы келісімшарттық клиникаға дейінгі және трансляциялық зерттеулер. Қазақстан.",
       rights: "Барлық құқықтар қорғалған.",
-      privacy: "Құпиялылық саясаты"
+      privacy: "Құпиялылық саясаты",
+      requisites: "Компания деректемелері"
     },
     privacy: {
       title: "Құпиялылық саясаты",
@@ -478,7 +480,8 @@ window.I18N = {
     footer: {
       tagline: "Contract preclinical and translational research in oncology. Kazakhstan.",
       rights: "All rights reserved.",
-      privacy: "Privacy policy"
+      privacy: "Privacy policy",
+      requisites: "Company details"
     },
     privacy: {
       title: "Privacy policy",
